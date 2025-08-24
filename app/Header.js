@@ -39,7 +39,7 @@ export default function Header() {
     <>
     {pathname === '/' ? 
       <h1 className=" text-[12px] md:text-[14px] font-[700] text-[#594f43]">{headerText}</h1> : 
-      <h1 className="absolute left-[60px] md:left-1/2 md:-translate-x-1/2 text-[14px] md:text-[18px] lg:text-[18px] font-[700] text-[#594f43]" onClick={() => router.push('/')}>{headerText}</h1>
+      <h1 className="absolute left-1/2 -translate-x-1/2 text-[14px] md:text-[18px] lg:text-[18px] font-[700] text-[#594f43]" onClick={() => router.push('/')}>{headerText}</h1>
     }
     </>
   );
