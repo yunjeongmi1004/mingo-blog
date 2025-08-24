@@ -2,6 +2,7 @@ import { ObjectId } from "mongodb"
 import { connectDB } from "@/util/database"
 import NotFound from "@/app/not-found"
 import Link from "next/link"
+import EditButton from "@/app/Btn/EditBtn"
 
 
 
@@ -27,7 +28,7 @@ export default async function Detail(props){
         {result.content}
       </div>
       <div className="sticky bottom-[0px] flex justify-end mt-[10px]">
-        <Link href={`/edit/${id}`} className="text-sm font-[500] border-1 border-[rgba(0,0,0,0)] bg-[#4d5566] text-[#fcfcfc] rounded-md pl-[10px] pr-[10px] py-[5px] mr-[5px]">수정</Link>
+        <EditButton id={id} />
       </div>
     </section>
   )

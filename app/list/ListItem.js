@@ -15,7 +15,7 @@ export default function ListItem(props){
   };
   
   return(
-    <div>
+    <div className="px-[16px] md:px-0">
       {result.map((a, i) => (
           <div 
             className="relative flex flex-col h-[140px] shadow-[0_0_10px_0_rgba(0,0,0,0.1)] max-w-[600px] mx-auto rounded-[10px] p-[16px] mb-[16px] bg-[rgba(255,255,255,0.8)] hover:scale-102 transition-all duration-300" 
