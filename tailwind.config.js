@@ -9,4 +9,16 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  safelist: [
+    'left-[60px]',
+    'md:left-1/2',
+    'md:-translate-x-1/2',
+    'text-[14px]',
+    'md:text-[18px]',
+    'lg:text-[18px]',
+    'font-[700]',
+    'text-[#594f43]',
+    'absolute',
+    'cursor-pointer'
+  ]
 }
