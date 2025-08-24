@@ -19,6 +19,6 @@ module.exports = {
     'font-[700]',
     'text-[#594f43]',
     'absolute',
-    'cursor-pointer'
+    'cursor-pointer',
   ]
 }
